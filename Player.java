@@ -43,7 +43,7 @@ public class Player extends JFrame{
             JButton play = new JButton("Start");
             play.addActionListener(new ActionListener(){
             
-                public void actionPerformed(ActionEvent ae1) {
+                public void actionPerformed(ActionEvent ae) {
                     statePlay =1;
                 }
             });
